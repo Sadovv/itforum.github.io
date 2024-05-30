@@ -1,0 +1,286 @@
+@font-face {
+    font-family: 'Pervye_Book';
+    src: url('fonts/Pervye_Book.otf') format('opentype');
+}
+@font-face {
+    font-family: 'YPervye_Extended-Bold';
+     src: url('fonts/Pervye_Extended-Bold.otf') format('opentype'); 
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("Image/background_all.png");
+    height: 100vh;
+    overflow-x: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#title{
+    margin: 0 0;
+    padding-bottom: 40px;
+    padding-left: 30px;
+   
+}
+
+#title_motd{
+    padding-top: 150px;
+    margin: 0 0;
+    padding-left: 30px;
+    
+}
+    
+     
+    /* .back_1 {
+        background-image: url('Image/Line_banner_1.png');
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    
+        
+    } */
+    
+    #banner {
+        font-family: 'YPervye_Extended-Bold', sans-serif;
+        position: relative;
+        font-size: 370%;
+        color: white;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        /* object-fit:scale-down; */
+    
+    }
+
+    #button_rec_block{
+        margin-top: 100px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #help_text{
+    text-align: center;
+        
+    }
+
+    #button_record{
+        text-align: center;
+        
+    }
+
+    #button_record img{
+        width: 30%;
+    }
+
+    #button_record a {
+        font-family: 'Pervye_Book', sans-serif; 
+        text-decoration: none;
+        display: block; 
+        color: white; 
+        transition: transform 1s;
+    }
+    
+    #button_record a:hover {
+        transform: scale(1.1);
+    }
+
+   @keyframes running-text{
+    from{
+        transform: translateX(-1%);
+    }
+    to{
+        transform: translateX(90%);
+    }
+   }
+
+   h3 a{
+    font-family: 'Pervye_Book', sans-serif; 
+    text-decoration: none;
+   }
+
+    h3.running-text {
+        animation-name: running-text;
+        animation-duration: 15s; 
+        animation-timing-function: linear; 
+        animation-iteration-count: infinite;
+    }
+  
+#block_2{
+    color:#fff;
+    align-items: center;
+    justify-self: center;
+    display: block;
+    text-align: center;
+}
+#block_2 h1{
+    font-size: 40px;
+   
+}
+#block_2 p{
+   padding-left: 10px;
+   padding-right: 10px;
+   font-size: 30px;
+}
+#block_2 a{
+    font-family: 'Pervye_Book', sans-serif; 
+    font-size: 30px; 
+
+}
+
+#block_3{
+    align-items: center;
+    color:#fff;
+    align-items: center;
+    justify-self: center;
+    display:block;
+    
+}
+
+.item-lists{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+/* #block_3 p{
+    align-items: right;
+} */
+
+#block_3 img{
+    margin-right: 20px;
+    margin: 15px;
+    width: 150px;
+}
+
+.item-lists p{
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+#block_4{
+    margin: 30px;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-gap: 20px;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+}
+
+#block_4 img{
+    margin: 10px;
+    width: 100px;
+}
+
+#block_4 a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#block_5{
+    padding-top: 20px;
+}
+
+#partners{
+    width: 100vw;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+#liner_footer{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#footer{
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 3fr;
+    grid-gap: 15px;
+    font-family: 'Pervye_Book', sans-serif; 
+    font-size: 20px;
+    color: #fff;
+    align-items: center;
+    /* text-align: center;*/
+} 
+
+#footer h2 {
+    font-family: 'YPervye_Extended-Bold', sans-serif; 
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+}
+
+#footer a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family:  'Pervye_Book', sans-serif;  
+    font-size: 20px;
+    text-align: right;
+}
+
+#footer img{
+    
+    height: 30px;
+    margin-right: 7px;
+}
+#map{
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+    /* #year{
+        font-size: 40%;
+        margin-bottom: 0;
+    }
+    #br_1{
+        padding-top: 0;
+    }
+    
+  
+    .button_record {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        font-family: 'YPervye_Extended-Bold', sans-serif;
+        font-size: 70%;
+        color: white;
+        text-align: center;
+        position: absolute;
+        background-size: auto;
+        object-fit:scale-down;
+        width: 10vw;
+        height: 5vh;
+        scale: 0.5;
+    }
+    
+
+    .button_record a {
+        display: block; 
+        color: white; 
+        transition: transform 1s;
+    }
+    
+    .button_record a:hover {
+        transform: scale(1.1);
+    }
+
+     */
